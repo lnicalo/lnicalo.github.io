@@ -35,6 +35,7 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 			</div>
 		</div>
 	</div>
+
 	<!-- Header -->
 	{{ content }}
 
@@ -54,14 +55,23 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 		<section>
 			<header>
 				<h2>Get in touch</h2>
-				<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+				<!-- <span class="byline">Integer sit amet pede vel arcu aliquet pretium</span> -->
 			</header>
 			<ul class="contact">
-				<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+			<li class="fa fa-envelope"><span>Mail</span></li></ul>
+					<form action="//formspree.io/lufermarltd@gmail.com" method="POST">
+						<input name="email" placeholder="Your email" type="email"><br><br>
+						<textarea name="message" placeholder="Your message"></textarea><br><br>
+						<button type="submit">Send</button>
+					</form>
+
+				<!--
+				<ul class="contact">
 				<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
 				<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
 				<li><a href="#" class="fa fa-tumblr"><span>Google+</span></a></li>
-			</ul>
+				</ul>
+				-->
 		</section>
 	</div>
 </div>
