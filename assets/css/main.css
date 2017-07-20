@@ -10,7 +10,9 @@ code {
   background-color: #eef;
   font-family: monospace;
 }
-
+img {
+  max-width: 100%
+}
 code {
   padding: 1px 5px; }
 
